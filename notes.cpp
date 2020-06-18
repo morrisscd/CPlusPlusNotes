@@ -1,5 +1,6 @@
 // CPlusPlusNotes.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+#include "pch.h"
 #include <iostream>
 #include "winerror.h"
 #include "notes.h"
@@ -15,9 +16,6 @@ using namespace web::http::client;          // HTTP client features
 using namespace concurrency::streams;       // Asynchronous streams
 using namespace web::json;
 
-
-
-
 int main()
 {
     //std::cout << "Hello World!\n";
@@ -27,7 +25,33 @@ int main()
     // #define S_FALSE     ((HRESULT)1L)
     // std::cout << ((HRESULT)0L) << std::endl; // equates to 0
     // std::cout << ((HRESULT)1L) << std::endl; // equates to 1
-	GetURL();
+	//GetURL();
+	'c';
+	'cc';
+	"a";
+	"fish";
+	char cat = 'c';
+
+	//char fish = "fish";
+
+	char fish[] = "fish";
+
+	const char* hello = "hello";
+	
+	std::wstring dog = L"d";
+
+	//std::wstring* dog = L"d";
+
+	//char szContent4 = "32";
+
+	int temp = 1;
+
+	LPCWSTR data = L"10";
+
+
+	std::wstring szContent1 = std::to_wstring(32).c_str();
+
+	std::wstring szContent2 = std::to_wstring(32);
 
 	//json::value obj;
 	//obj[L"key1"] = json::value::boolean(false);
