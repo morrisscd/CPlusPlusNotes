@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cat.cpp" />
     <ClCompile Include="configfile.cpp" />
     <ClCompile Include="fish.cpp" />
     <ClCompile Include="notes.cpp" />

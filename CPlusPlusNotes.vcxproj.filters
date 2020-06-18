@@ -27,7 +27,7 @@
     <ClCompile Include="configfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fish.cpp">
+    <ClCompile Include="cat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
